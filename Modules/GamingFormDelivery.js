@@ -1,5 +1,6 @@
 // ID of the channel where the "Finding a team" form is submitted.
-const TeamChannelID = "1306526388563480587";
+require("dotenv").config()
+const TeamChannelID = process.env.Team_Channel;
 
 const {
   EmbedBuilder
