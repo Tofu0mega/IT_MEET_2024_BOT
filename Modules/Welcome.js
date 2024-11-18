@@ -85,7 +85,20 @@ module.exports = (client) => {
           new ButtonBuilder()
             .setURL("https://itmeet.kucc.ku.edu.np/")
             .setLabel("Official Website")
-            .setStyle(ButtonStyle.Link)
+            .setStyle(ButtonStyle.Link),
+            
+        ).addComponents(
+          new ButtonBuilder()
+            .setURL("https://discord.gg/T3Dt5UZnkk")
+            .setLabel("Join The KUCC Discord")
+            .setStyle(ButtonStyle.Link),
+            
+        ).addComponents(
+          new ButtonBuilder()
+            .setURL("https://discord.gg/c2PCQHq4Vn")
+            .setLabel("Join The Gaming Events Discord")
+            .setStyle(ButtonStyle.Link),
+            
         );
 
       // Send welcome message

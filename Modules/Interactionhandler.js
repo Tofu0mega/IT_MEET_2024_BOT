@@ -27,6 +27,7 @@ const socialMediaNotifierHandler = require("./SubModules/socialMediaNotifierHand
 const gamingModalSubmission = require('../Modules/GamingFormDelivery.js');
 const subEventManager = require("../src/commands/create-sub-event.js");
 const gmaingCategoryManager = require("../src/commands/create-gaming-category.js");
+const help=require("../Modules/SubModules/help.js")
 require("dotenv").config();
 
 
@@ -55,6 +56,10 @@ module.exports = async (interaction, client) => {
                     await subEventManager.handelinteraction(interaction);
                     commandHandled = true;
                     break;
+                    case 'help':
+                        await help(interaction);
+                        commandHandled = true;
+                        break;
 
                 case 'create-gaming-category':
                     await gmaingCategoryManager.handelinteraction(interaction, client);

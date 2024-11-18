@@ -30,8 +30,8 @@ module.exports = (client,EmbedBuilder) => {
 
   if(post_details.postID != prevPostID || prevPostID==null){
     const embed = new EmbedBuilder()
-        .setTitle(post_details.postMessage)
-        .setDescription("Event Happening!")
+        .setTitle("New From Our FaceBook Page")
+        .setDescription(post_details.postMessage)
         .setURL(post_details.postURL)
         .setImage(post_details.postIMG)
         .setTimestamp();
