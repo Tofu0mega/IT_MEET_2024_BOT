@@ -65,7 +65,7 @@ module.exports = (client) => {
         .setTitle("🎉 Welcome to IT Meet 2024! 🎉")
         .setDescription(`We're thrilled to have you here, ${member}! Get ready for an amazing journey of innovation and technology.`)
         .addFields(
-          { name: "🗓️ Event Date", value: "March 15-17, 2024", inline: true },
+          { name: "🗓️ Event Date", value: "December 6-7, 2024", inline: true },
           { name: "📍 Location", value: "Kathmandu University", inline: true },
           { name: "\u200B", value: "\u200B" },
           { name: "🚀 Next Steps", value: `
