@@ -1,37 +1,3 @@
 [
-  {
-    "id": "5",
-    "eventName": "b",
-    "eventLocation": "b",
-    "eventDate": "2024-11-14",
-    "eventTime": "12:00"
-  },
-  {
-    "id": "3",
-    "eventName": "Test",
-    "eventLocation": "Location",
-    "eventDate": "2024-11-13",
-    "eventTime": "17:33"
-  },
-  {
-    "id": "1",
-    "eventName": "test2",
-    "eventLocation": "sw",
-    "eventDate": "2024-11-13",
-    "eventTime": "20:45"
-  },
-  {
-    "id": "2",
-    "eventName": "test3 gamming compi",
-    "eventLocation": "notice c",
-    "eventDate": "2024-11-13",
-    "eventTime": "20:16"
-  },
-  {
-    "id": "4",
-    "eventName": "ni",
-    "eventLocation": "l",
-    "eventDate": "2024-12-05",
-    "eventTime": "10:00"
-  }
+  
 ]
